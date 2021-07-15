@@ -1,0 +1,55 @@
+.myCarousel {
+  position: relative;
+  height: 50% !important;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+ .imgCarousel  {
+  background-image: url("../assest/img/edu.png");
+  background-repeat: no-repeat;
+  width: auto; /*or your image's width*/
+  height: auto; /*or your image's height*/
+  margin: 0;
+  padding: 0;
+}
+
+.myButtons {
+  position: absolute;
+  top: 80;
+  bottom: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  z-index: 100;
+}
+
+.title-header{
+  position:absolute;
+  top: 30%;
+  margin-top:auto;
+  margin-right: auto;
+  justify-content: center;
+
+}
+.title-header h1{
+  font-size:5rem;
+  font-weight: bold;
+  color:antiquewhite
+}
+@media screen and  (max-width: 786px) {
+
+   img {
+    src: url('../assest/img/edu.png');
+  }
+  .myButtons {
+    position: absolute;
+    top: 90%;
+  }
+  .myButtons a {
+    
+    width:auto;
+    margin-bottom: 1rem;
+  }
+ 
+}
